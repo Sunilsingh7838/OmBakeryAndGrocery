@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ombakery & Grocery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fffefc;
+        color: #333;
+      }
+      header {
+        background-color: #f18b01;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+        gap: 1.5rem;
+      }
+      .product-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: 200px;
+        padding: 1rem;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        text-align: center;
+      }
+      .product-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .product-card h3 {
+        margin: 0.5rem 0;
+      }
+      .whatsapp-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25d366;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+      }
+      .whatsapp-btn:hover {
+        background-color: #1ebe57;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .footer-section {
+        flex: 1 1 200px;
+        margin: 1rem 0;
+      }
+
+      .footer-section h4 {
+        margin-bottom: 1rem;
+      }
+
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-section ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      .footer-section ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .footer-section ul li a:hover {
+        text-decoration: underline;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        margin-top: 1rem;
+        color: #bbb;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ombakery & Grocery</h1>
+      <p>Freshly Baked & Handpicked Essentials</p>
+    </header>
+
+    <section class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Bread" alt="Bread" />
+        <h3>Whole Wheat Bread</h3>
+        <p>₹40</p>
+      </div>
+      <div class="product-card">
+        <img
+          src="https://via.placeholder.com/200x150?text=Cookies"
+          alt="Cookies"
+        />
+        <h3>Choco Chip Cookies</h3>
+        <p>₹70</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Rice" alt="Rice" />
+        <h3>Organic Rice</h3>
+        <p>₹90/kg</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>Email: support@ombakeryandgrocery.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Lucknow, UP, India</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Ombakery & Grocery. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a class="whatsapp-btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">
+      Chat on WhatsApp
+    </a>
+  </body>
+</html>
